@@ -18,8 +18,8 @@ public class Main {
 		//User[] customers = new User[10];
 		//customers[0] = naiKor;
 		User[] customers =  {
-				new User("111SOmpop", "KL", 30, 24000),
-				new User("111P kaew", "KK", 30, 500000)
+				new User("222SOmpop", "KL", 30, 24000),
+				new User("222P kaew", "KK", 30, 500000)
 		};
 		//SmartCsv.write(customers, path);
 		SmartCsv csv = new SmartCsv(path, "Windows");
