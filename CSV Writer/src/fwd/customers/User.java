@@ -38,4 +38,12 @@ public class User {
 		for(int i = 0 ; i < users.length ; i ++)
 			User.log(users[i]);
 	}
+	
+	public static int getSumSalary(User[] users) {
+		int sum = 0;
+		for(int i=0;i<users.length;i++)
+			sum += users[i].salary;
+		return sum;
+	}
 }
+
